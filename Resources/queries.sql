@@ -21,3 +21,6 @@ INNER JOIN departments ON
 departments.dept_no = dept_manager.dept_no
 INNER JOIN employees ON
 dept_manager.emp_no = employees.emp_no
+
+--List the department of each employee with the following information: 
+--employee number, last name, first name, and department name.
