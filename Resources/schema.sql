@@ -25,8 +25,8 @@ CREATE TABLE employees (
 CREATE TABLE salaries (
 	emp_no INTEGER PRIMARY KEY,
 	salary INTEGER NOT NULL,
-	from_date INTEGER NOT NULL,
-	to_date INTEGER NOT NULL
+	from_date DATE NOT NULL,
+	to_date DATE NOT NULL
 );
 
 CREATE TABLE titles (
